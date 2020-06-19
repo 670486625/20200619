@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/menu.css">
+    <link rel="stylesheet" href="../static/css/loginOrRegister.css">
+    <script src="../statics/js/menu.js"></script>
+</head>
+<body>
+
+
+<!-- 左侧功能列表 -->
+<div class="menu">
+    <div>
+        <p onclick="accordion(1)">老师功能</p>
+        <ul id="ul1">
+            <li><a href="teacherLoginRegister">老师登陆/注册</a></li>
+            <li><a href="indexSetHomework">设置作业</a></li>
+            <li><a href="indexSetGrade">作业打分</a></li>
+        </ul>
+    </div>
+    <div>
+        <p onclick="accordion(2)">学生功能</p>
+        <ul id="ul2">
+            <li><a href="studentLoginRegister">学生登陆/注册</a></li>
+            <li><a href="indexSubmitHomework">提交作业</a></li>
+            <li><a href="indexUpdateHomework">修改作业</a></li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
